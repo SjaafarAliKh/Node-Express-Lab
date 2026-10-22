@@ -19,6 +19,6 @@ app.get('/about', (request, response) => {
     response.sendFile(__dirname + '/views/about.html')
 })
 
-app.listen(3000,()=>{
+app.listen(3000, () => {
     console.log("Listening on port " + 3000)
 })  
